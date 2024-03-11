@@ -1,9 +1,9 @@
 var React = require('react/addons');
-var AllPostStore = require('../stores/AllPostStore');
-var AllPostActions = require('../actions/AllPostActions');
+var AllPostStore = require('../stores/AllPostStore.js');
+var AllPostActions = require('../actions/AllPostActions.js');
 var PostPreview = require('./PostPreview.jsx');
 var Pagination = require('./Pagination.jsx');
-var config = require('../../config');
+var config = require('../../config.js');
 var PostListHeader = require('./PostListHeader.jsx');
 
 var PostListView = React.createClass({

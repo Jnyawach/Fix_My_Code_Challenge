@@ -1,12 +1,12 @@
 var React = require('react/addons');
-var SinglePostStore = require('../stores/SinglePostStore');
+var SinglePostStore = require('../stores/SinglePostStore.js');
 var Glyphicon = require('react-bootstrap').Glyphicon;
-var SinglePostActions = require('../actions/SinglePostActions');
-var AllPostActions = require('../actions/AllPostActions');
+var SinglePostActions = require('../actions/SinglePostActions.js');
+var AllPostActions = require('../actions/AllPostActions.js');
 var Link = require('react-router').Link;
 var marked = require('marked');
 var AuthorMixin = require('../mixins/AuthorMixin.jsx');
-var JsxIncludes = require('./JsxIncludes');
+var JsxIncludes = require('./JsxIncludes.js');
 
 var SinglePostView = React.createClass({
 
