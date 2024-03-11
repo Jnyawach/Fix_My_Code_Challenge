@@ -1,5 +1,5 @@
 var React = require('react/addons');
-var SinglePostActions = require('../actions/SinglePostActions.js');
+var SinglePostActions = require('../actions/SinglePostActions');
 var AuthorMixin = require('../mixins/AuthorMixin.jsx');
 
 var PostPreview = React.createClass({
